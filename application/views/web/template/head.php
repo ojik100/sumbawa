@@ -109,7 +109,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <a href="#" class="btn_1 d-none d-lg-block">Hubungi Kami</a>
+                            <a href="<?= base_url() ?>Kontak" class="btn_1 d-none d-lg-block">Hubungi Kami</a>
                         </nav>
                     </div>
                 </div>

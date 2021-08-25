@@ -12,7 +12,7 @@
                             <h1>Pesona Wisata</h1>
                            <p style="font-size :300%">Desa Labuhan Burung</p><br>
                            <p style="font-size :100%"> Kabupaten Sumbawa Nusa Tenggara Barat</p>
-                            <a href="#" class="btn_1">Hubungi Kami</a>
+                            <a href="<?= base_url() ?>Kontak" class="btn_1">Hubungi Kami</a>
                         </div>
                     </div>
                 </div>
@@ -72,15 +72,7 @@
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn"><?= $row->judul?></a>
                                 <h3><?= $row->judul?></h3>
-                                <p>Technaf, Bangladesh</p>
-                                <div class="place_review">
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <span>(210 review)</span>
-                                </div>
+                               
                             </div>
                             <div class="details_icon text-right">
                                 <i class="ti-share"></i>
@@ -123,16 +115,7 @@
                                         </p>
                                         <p>date: <span><?= $row->created_at ?></span> </p>
                                         <p>Organizer: <span> Desa Labuhan Burung</span> </p>
-                                        <div class="rating">
-                                            <span>Rating:</span>
-                                            <div class="place_review">
-                                                <a href="#"><i class="fas fa-star"></i></a>
-                                                <a href="#"><i class="fas fa-star"></i></a>
-                                                <a href="#"><i class="fas fa-star"></i></a>
-                                                <a href="#"><i class="fas fa-star"></i></a>
-                                                <a href="#"><i class="fas fa-star"></i></a>
-                                            </div>
-                                        </div>
+                                       
                                         <a href="<?= base_url() ?>Web/detail_wisata/<?= $row->id ?>" class="btn_1">Lihat Selengkapnya</a>
                                     </div>
                                 </div>
@@ -184,14 +167,7 @@
                         </div>
                         <div class="hotel_text_iner">
                             <h3> <a href="<?= base_url() ?>Web/detail_wisata/<?= $row->id ?>"> <?= $row->nama_wisata ?></a></h3>
-                            <div class="place_review">
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <span>(210 review)</span>
-                            </div>
+                           
                             <p>Labuhan Burung, Sumbawa Besar</p>
                             <p><?= character_limiter($row->deskripsi,100)?><a href="<?= base_url() ?>Web/detail_wisata/<?= $row->id ?>">Selengkapnya</a></p>
                             <h5><a href="" class="btn btn-success ">WhatsApp</a> </h5>
@@ -254,8 +230,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-6">
                     <div class="section_tittle text-center">
-                        <h2>Artikel</h2>
-                        <p>Artikel Pesona Wisata Desa Labuhan Burung .</p>
+                        <h2>Berita</h2>
+                        <p>Berita Pesona Wisata Desa Labuhan Burung .</p>
                     </div>
                 </div>
             </div>

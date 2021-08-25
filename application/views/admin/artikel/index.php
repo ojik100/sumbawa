@@ -12,7 +12,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Data Artikel Wisata</li>
+              <li class="breadcrumb-item active">Data Berita Wisata</li>
             </ol>
           </div>
         </div>
@@ -26,7 +26,7 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title"><a href="<?= base_url() ?>C_artikel/add" class="btn btn-success btn-sm"><i class="fa fa-plus"></i><span> Tambah Artikel</span></a></h3>
+                <h3 class="card-title"><a href="<?= base_url() ?>C_artikel/add" class="btn btn-success btn-sm"><i class="fa fa-plus"></i><span> Tambah Berita</span></a></h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">

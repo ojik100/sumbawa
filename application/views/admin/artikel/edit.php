@@ -6,7 +6,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Edit Artikel Wisata</h1>
+            <h1>Edit Berita Wisata</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -27,7 +27,7 @@
             <!-- jquery validation -->
             <div class="card card-success">
               <div class="card-header">
-                <h3 class="card-title">Edit Artikel Wisata </h3>
+                <h3 class="card-title">Edit Berita Wisata </h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->

@@ -51,10 +51,8 @@
                                 <!-- <p class="comment-count"><span class="align-middle"><i class="far fa-comment"></i></span> 06 Comments</p> -->
                             </div>
                             <ul class="social-icons">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li><a href="http://www.facebook.com/sharer.php?u=http://wisatadesalabuhanburung.com/Web/detail_berita/<?= $row->id ?><?= $row->judul ?>" target="blank"><i class="fab fa-facebook-f"></i></a></li>
+                               
                             </ul>
                         </div>
                      

@@ -54,14 +54,7 @@
                                         <p>date: <span><?= $row->created_at ?></span> </p>
                                         <p>Organizer: <span> Desa Labuhan Burung</span> </p>
                                             <div class="rating">
-                                                <span>Rating:</span>
-                                                <div class="place_review">
-                                                    <a href="#"><i class="fas fa-star"></i></a>
-                                                    <a href="#"><i class="fas fa-star"></i></a>
-                                                    <a href="#"><i class="fas fa-star"></i></a>
-                                                    <a href="#"><i class="fas fa-star"></i></a>
-                                                    <a href="#"><i class="fas fa-star"></i></a>
-                                                </div>
+                                                
                                             </div>
                                         <a href="#" class="btn_1">Plan Details</a>
                                     </div>
@@ -83,8 +76,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-6">
                     <div class="section_tittle text-center">
-                        <h2>Artikel</h2>
-                        <p>Artikel Pesona Wisata Desa Labuhan Burung</p>
+                        <h2>Berita</h2>
+                        <p>Berita Pesona Wisata Desa Labuhan Burung</p>
                     </div>
                 </div>
             </div>

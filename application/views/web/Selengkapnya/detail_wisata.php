@@ -91,6 +91,7 @@
                         <div class="tour_details_content_btn">
                             <a href="https://api.whatsapp.com/send?phone=<?= $row->no_wa ?>" target="blank" class="btn_1">Pesan WhatsApp</a>
                         </div>
+                         
                     </div>
                 </div>
                 <?php
